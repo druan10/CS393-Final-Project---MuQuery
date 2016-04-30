@@ -2,7 +2,7 @@ function loadSc(){
     //attempt to load a song and return whether it worked or not
     $.ajax({
     url: 'https://api.soundcloud.com/resolve.json?url='+
-    nextTrack+'/tracks&client_id='+'a52ad8c9bea7fc1421b4886e5c8ce670',
+    nextTrack+'/tracks&client_id='+'ENTER SC CLIENT ID',
     type: 'GET',
     success: function(data){ 
         
