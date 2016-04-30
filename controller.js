@@ -1,6 +1,6 @@
 //Initialize SoundCloud
 SC.initialize({
-  client_id: 'ENTER YOUR SC CLIENT ID'
+  client_id: 'ENTER YOUR SC API CLIENT ID'
 });
 function setId(id){
     var roomid=id;
@@ -58,7 +58,7 @@ function getInfo(){
       q: nextTrack,
       type: 'video',
       videoCategoryId: '10',
-      key: 'AIzaSyBR8jZq8GALRNQjIFuVjeLG9ocTrV1xQcQ'
+      key: 'ENTER YOUR YOUTUBE API KEY'
     },function(data){console.log(data);
     var obj=data.items[0];
     if (playing){
