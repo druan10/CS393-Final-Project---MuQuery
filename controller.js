@@ -1,6 +1,6 @@
 //Initialize SoundCloud
 SC.initialize({
-  client_id: 'a52ad8c9bea7fc1421b4886e5c8ce670'
+  client_id: 'ENTER YOUR SC CLIENT ID'
 });
 function setId(id){
     var roomid=id;
