@@ -1,0 +1,104 @@
+body{
+  background-color: #030C22;
+  font-family: 'Lobster', cursive;
+}
+
+h1,h2,p,a{
+	color: #C7CFD2;
+    text-align:center;
+}
+
+
+
+#forms{
+  text-align:center;
+}
+
+#playlist{
+  border-style: solid;
+  overflow:scroll; 
+  height:200px;
+  background-color: #20293F;
+}
+
+#searchresults{
+  visibility: hidden;
+  display: none;
+  border-style: solid;
+  overflow:scroll; 
+  height:250px;
+  background-color: #20293F;
+}
+
+.result{
+  border-style: solid;
+  background-color: #20293F;
+  height:100px;
+  overflow: hidden;
+}
+
+.result>img{
+  float:left;
+}
+
+a:link {
+    color: black;
+}
+
+#error{
+  text-align:center;
+  color:black;
+}
+
+input{
+  width: 90%;
+  
+}
+
+.controls, input[type=submit] {
+	-moz-box-shadow:inset 0px 1px 0px 0px #949494;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #949494;
+	box-shadow:inset 0px 1px 0px 0px #949494;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #787878), color-stop(1, #525252));
+	background:-moz-linear-gradient(top, #787878 5%, #525252 100%);
+	background:-webkit-linear-gradient(top, #787878 5%, #525252 100%);
+	background:-o-linear-gradient(top, #787878 5%, #525252 100%);
+	background:-ms-linear-gradient(top, #787878 5%, #525252 100%);
+	background:linear-gradient(to bottom, #787878 5%, #525252 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#787878', endColorstr='#525252',GradientType=0);
+	background-color:#787878;
+	border:1px solid #4a4a4a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:12px;
+	font-weight:bold;
+	padding:8px 28px;
+	text-decoration:none;
+}
+.controls:hover, input[type=submit]:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #525252), color-stop(1, #787878));
+	background:-moz-linear-gradient(top, #525252 5%, #787878 100%);
+	background:-webkit-linear-gradient(top, #525252 5%, #787878 100%);
+	background:-o-linear-gradient(top, #525252 5%, #787878 100%);
+	background:-ms-linear-gradient(top, #525252 5%, #787878 100%);
+	background:linear-gradient(to bottom, #525252 5%, #787878 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#525252', endColorstr='#787878',GradientType=0);
+	background-color:#525252;
+}
+.controls:active, input[type=submit]:hover {
+	position:relative;
+	top:1px;
+}
+
+#ytimage{
+	width: 100px;
+    height: 100px;
+    clip: rect(80px,100px,100px,80px);
+}
+
+#joinform{
+	width:60%;
+	margin-right:auto;
+	margin-left:auto;}
